@@ -3,8 +3,6 @@ from Alumnos.routes import alumnos
 from Directivos.routes import dir
 from Maestros.routes import maestros
 
-
-
 app=flask.Flask(__name__)
 app.config['DEBUG']=True
 
